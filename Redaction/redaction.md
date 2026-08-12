@@ -51,7 +51,7 @@ Redact content directly from the toolbar or context menu to speed up document re
 
 ![Search and redact in PDF Viewer SDK.](images/pdf-viewer-sdk/pdf-viewer-fully-accessible.svg){:width="70" height="70" loading="lazy"}
 
-### Bulk cleanup
+### Find sensitive content faster
 
 {: .description}
 Find matching words or phrases and mark every occurrence for redaction across the document in one pass.
@@ -86,7 +86,7 @@ Redact sensitive content with tools designed for individual document reviews, re
 {: .content-wrapper}
 {% column %}
 
-### Redact from the toolbar or context menu
+### Mark sensitive content quickly
 
 Mark sensitive text, images, or content for redaction directly from built-in tools while reviewing the document. This streamlined workflow helps teams identify confidential information and prepare it for permanent removal.
 
@@ -120,7 +120,7 @@ Mark sensitive text, images, or content for redaction directly from built-in too
 {: .content-wrapper}
 {% column %}
 
-### Search and redact matching text
+### Find and redact matching content
 
 Search for words, phrases, or repeated content and mark all matching occurrences for redaction throughout the document. This helps remove sensitive information faster when it appears in many places.
 
@@ -421,14 +421,14 @@ Yes. Sensitive content can be marked directly during review by using the toolbar
 {: .question}
 {% header %}
 
-### Why use PDF redaction instead of visual masking?
+### How is PDF redaction different from visual masking?
 
 {% endheader %}
 
 {: .answer}
 {% header %}
 
-Visual masking only hides content on the page, while redaction is intended to remove the underlying information from the final saved PDF.
+Visual masking only hides content on the page, while redaction permanently removes the underlying information from the final saved PDF.
 
 {% endheader %}
 

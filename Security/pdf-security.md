@@ -14,10 +14,10 @@ keywords: PDF security, PDF Viewer SDK security, password protected PDF, PDF red
 
 # Protect PDF documents with built-in security features
 
-* Open password-protected PDF files with integrated password prompts.
-* Redact sensitive PDF content before sharing documents.
+* Control access to protected PDF documents with integrated password support.
+* Remove sensitive information before documents are shared.
 * Apply trusted digital signatures through Syncfusion PDF Library integration.
-* Validate signed PDF documents to review authenticity and integrity.
+* Verify document authenticity and integrity through digital signature validation.
 
 ![PDF security in Syncfusion PDF Viewer SDK.](images/blazor-pdf-viewer/blazor-pdf-viewer-customize.webp){: .right-section-image width="1920" height="589" loading="lazy"}
 
@@ -32,9 +32,9 @@ new-feature-layout-sdk
 
 PDF security
 
-## Secure document access and trust
+## Secure access and document trust
 
-Create trusted document workflows by combining the PDF Viewer SDK with your application's security and verification processes, delivering seamless PDF experiences for end users.
+Help teams protect sensitive information, control document access, and verify document authenticity throughout the PDF lifecycle. Combine password protection, redaction, digital signatures, and validation workflows within your application.
 
 {% column %}
 
@@ -43,7 +43,7 @@ Create trusted document workflows by combining the PDF Viewer SDK with your appl
 ### Control document access
 
 {: .description}
-Allow only authorized users to open protected PDF files by requiring a password during document loading.
+Allow only authorized users to access protected PDF documents by requiring a password before the file can be opened. This helps safeguard confidential information and supports secure document workflows.
 
 {% endcolumn %}
 
@@ -65,7 +65,7 @@ Redact confidential content before sharing documents so private information is n
 ### Verify signed documents
 
 {: .description}
-Apply and validate digital signatures to help confirm signer identity and document integrity.
+Apply and validate digital signatures to help verify signer identity, confirm document integrity, and support trusted document workflows.
 
 {% endcolumn %}
 
@@ -88,7 +88,7 @@ Help users open secured PDF files, remove sensitive content, apply trusted digit
 
 ### Open password-protected PDF files
 
-Let authorized users open secured PDF documents by providing the required password when the file loads. This helps protect access to confidential files while keeping the viewing flow simple.
+Let authorized users access protected PDF documents by providing the required password before the file can be opened. This helps safeguard confidential information while keeping the viewing experience simple and secure.
 
 {: .list-wrapper}
 * Prompt for the correct password during document loading.
@@ -121,7 +121,7 @@ Let authorized users open secured PDF documents by providing the required passwo
 {: .content-wrapper}
 {% column %}
 
-### Redact sensitive PDF content
+### Remove sensitive information
 
 Remove or obscure confidential information before documents are shared with others. Redaction helps reduce the risk of exposing private, financial, legal, or regulated content.
 
@@ -368,7 +368,7 @@ Yes. The PDF Viewer can open password-protected PDF documents by requesting the 
 {: .answer}
 {% header %}
 
-Yes. Redaction is supported for removing or obscuring sensitive information in PDF documents on supported platforms.
+Yes. Redaction is supported for permanently removing or obscuring sensitive information in PDF documents on supported platforms.
 
 {% endheader %}
 
@@ -386,7 +386,7 @@ Yes. Redaction is supported for removing or obscuring sensitive information in P
 {: .answer}
 {% header %}
 
-No. Digital signatures are certificate-based and help verify document authenticity and integrity. They are different from standard electronic signature input.
+No. Digital signatures use certificate-based cryptographic validation to help verify document authenticity and integrity. They are different from standard electronic signature input.
 
 {% endheader %}
 
@@ -404,7 +404,7 @@ No. Digital signatures are certificate-based and help verify document authentici
 {: .answer}
 {% header %}
 
-Yes. Signature validation is supported for checking certificate authenticity and identifying whether a document was modified after signing.
+Yes. Signature validation helps verify certificate authenticity and determine whether a document was modified after signing.
 
 {% endheader %}
 

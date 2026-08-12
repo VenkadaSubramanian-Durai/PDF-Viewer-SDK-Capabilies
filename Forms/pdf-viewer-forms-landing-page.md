@@ -190,7 +190,7 @@ Move field values independently of the PDF so forms fit cleanly into connected b
 {: .content-wrapper}
 {% column %}
 
-### Validate fields before submission
+### Validate form data before processing
 
 Apply required-field checks before users submit, print, or download a document. Form events help your application guide users, enforce business rules, and react to key interactions.
 

@@ -34,7 +34,7 @@ PDF SIGNING WORKFLOWS
 
 ## Secure signing, validation, and review
 
-Build PDF approval experiences that go beyond visual signing. The Syncfusion PDF Viewer SDK supports digital signature workflows for signing, validation, visible signature appearance customization, and document review. Advanced PKI-based signing and verification are enabled through integration with the Syncfusion PDF Library.
+Build PDF approval experiences that go beyond visual signing. The Syncfusion PDF Viewer SDK supports digital signature workflows for signing, validation, visible signature appearance customization, and document review. Advanced certificate-based signing and validation capabilities are available through Syncfusion PDF Library integration.
 
 {% column %}
 
@@ -43,7 +43,7 @@ Build PDF approval experiences that go beyond visual signing. The Syncfusion PDF
 ### Trusted signing
 
 {: .description}
-Support certificate-based digital signature workflows for PDF documents, with signing operations enabled through the Syncfusion PDF Library to help protect document authenticity and integrity.
+Support certificate-based digital signature workflows for PDF documents to help protect document authenticity and integrity.
 
 {% endcolumn %}
 
@@ -54,7 +54,7 @@ Support certificate-based digital signature workflows for PDF documents, with si
 ### Reliable validation
 
 {: .description}
-Check whether a signed document remains unchanged and review signature validity, trust status, and document integrity using validation capabilities provided through the Syncfusion PDF Library.
+Check whether a signed document remains unchanged and review signature validity, trust status, and document integrity.
 
 {% endcolumn %}
 
@@ -65,7 +65,7 @@ Check whether a signed document remains unchanged and review signature validity,
 ### End-to-end workflows
 
 {: .description}
-Support complete digital signing flows with signature fields, visible signatures, validation, and review using the Syncfusion PDF Viewer SDK together with the Syncfusion PDF Library.
+Support complete digital signing flows with signature fields, visible signatures, validation, and review across approval workflows.
 
 {% endcolumn %}
 
@@ -122,7 +122,7 @@ Support secure, certificate-based digital signature workflows for PDF documents.
 
 ### Validate signed PDFs
 
-Verify digital signatures and check whether a document has been changed after signing. Validation capabilities from the Syncfusion PDF Library help reviewers confirm signature status before accepting or distributing a file.
+Verify digital signatures and determine whether a document has been modified after signing. Review signature status, certificate trust, and document integrity before accepting or distributing documents.
 
 {: .list-wrapper}
 * Validate signed PDF documents during review workflows.
@@ -176,7 +176,7 @@ Control how visible digital signatures appear in the document. Signature appeara
 
 ### Manage signing workflows
 
-Support complete digital signing workflows from field preparation to final verification. The Syncfusion PDF Viewer SDK works with the Syncfusion PDF Library to streamline review, approval, and signature-based document handling.
+Support complete digital signing workflows from field preparation to final verification, helping teams streamline review, approval, and signature-based document processes.
 
 {: .list-wrapper}
 * Support signature field creation, signing, validation, and review.
@@ -456,7 +456,7 @@ Explore the digital signature capabilities supported by the Syncfusion PDF Viewe
 ### Add digital signature
 
 {: .description}
-Apply certificate-based digital signatures to PDF documents with Syncfusion PDF Library support.
+Apply certificate-based digital signatures to PDF documents.
 
 [Explore](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/react/digital-signature/add-digital-signature-react){: aria-label="Explore"}
 

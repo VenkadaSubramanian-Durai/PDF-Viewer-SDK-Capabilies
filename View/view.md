@@ -1,319 +1,558 @@
-# View Feature Page — Content Specification
-
-## Page metadata
-
-| Element | Recommended copy |
-|---|---|
-| **Page URL** | `https://www.syncfusion.com/pdf-viewer-sdk/view` |
-| **Title** | PDF Viewer SDK for Viewing, Navigation, Search, and Bookmarks | Syncfusion |
-| **Meta description** | Render PDF documents with high fidelity and help users navigate, search, and explore content with Syncfusion PDF Viewer SDK. |
-| **H1** | Deliver smooth PDF viewing experiences in your application |
-| **Hero description** | Let users open, read, search, and move through PDF documents with clarity and speed. Syncfusion PDF Viewer SDK preserves layout, text, images, annotations, and form elements while providing intuitive navigation tools across documents of different sizes and complexity. |
-
-> **Editorial note:** “View” is short and clear for navigation, but page copy should naturally include stronger search phrases such as “PDF viewer,” “view PDF documents,” “PDF navigation,” and “text search” to improve discoverability.
-
+---
+title: PDF Viewer SDK for Viewing, Navigation, Search, and Bookmarks | Syncfusion
+description: Render PDF documents with high fidelity and help users navigate, search, and explore content with Syncfusion PDF Viewer SDK.
+demolink: "https://document.syncfusion.com/demos/pdf-viewer/react/#/tailwind3/pdfviewer/default"
+product_schema_name: The Syncfusion PDF Viewer SDK
+product_schema_description: The Syncfusion PDF Viewer SDK delivers high-fidelity PDF viewing with page navigation, text search, thumbnails, bookmarks, and hyperlink support for in-app document experiences.
+fb_image: "https://cdn.syncfusion.com/content/images/company-logos/Syncfusion_Logo_Image.png"
+twitter_image: "https://cdn.syncfusion.com/content/images/company-logos/Syncfusion_logos.png"
+keywords: PDF Viewer SDK, PDF viewer, view PDF documents, PDF navigation, text search, PDF thumbnails, PDF bookmarks, hyperlink support
 ---
 
-## 1. Sticky navbar
-
-Use the standard Syncfusion global navigation.
-
-- **Brand:** Syncfusion
-- **Navigation:** Products · Solutions · Resources · Pricing
-- **Utility actions:** Sign In · Contact Sales
-- **Primary CTA:** Start Free Trial
-
----
-
-## 2. Hero
-
-**Breadcrumb:** Home / PDF Viewer SDK / View
-
-**Badge pill:** PDF VIEWER SDK · VIEW
+{% banner %}
+{% col_2_equal %}
 
 # Deliver smooth PDF viewing experiences in your application
 
-Let users open, read, search, and move through PDF documents with clarity and speed. Syncfusion PDF Viewer SDK preserves layout, text, images, annotations, and form elements while providing intuitive navigation tools across documents of different sizes and complexity.
+* Render PDF documents with high fidelity across reports, forms, manuals, and business files.
+* Help users navigate quickly with page controls, scrolling, thumbnails, bookmarks, and hyperlinks.
+* Make document content easier to explore with built-in text search and highlighted matches.
+* Preserve layout, text, images, annotations, and form elements for a dependable PDF viewing experience.
 
-**Primary CTA:** Start Free Trial  
-**Secondary CTA:** View Live Demo
+![PDF Viewer document viewing experience.](images/blazor-pdf-viewer/blazor-pdf-viewer-customize.webp){: .right-section-image width="1920" height="589" loading="lazy"}
 
-**Microcopy:** No credit card required · Developer support included
+{% endcol_2_equal %}
+{% endbanner %}
 
-**Hero mockup direction:** Show a multi-page PDF open in the viewer with a clear reading area, top navigation toolbar, visible page number control, search box with highlighted result, thumbnail panel, and bookmark panel. Keep the layout focused on document reading rather than editing.
+{: .new-feature-layout-sdk}
+new-feature-layout-sdk
 
----
+{: #why-choose-section}
+{% multiple_column split:3 %}
 
-## 3. Three-up value propositions
+PDF VIEWER SDK
 
 ## Build polished PDF reading experiences
 
 Add accurate rendering, fast navigation, text search, and document exploration tools to your application with ready-to-use UI and flexible APIs.
 
+{% column %}
+
+![Preserve PDF document fidelity.](images/pdf-viewer-sdk/pdf-viewer-fully-accessible.svg){:width="70" height="70" .lazy loading="lazy"}
+
 ### Preserve document fidelity
 
-Display PDF files with the original layout, text, images, annotations, and form elements intact for a consistent reading experience.
+{: .description}
+Display PDF files with the original layout, text, images, annotations, and form elements intact for a consistent viewing experience.
+
+{% endcolumn %}
+
+{% column %}
+
+![Help users move faster in PDF documents.](images/pdf-viewer-sdk/pdf-viewer-fully-accessible.svg){:width="70" height="70" loading="lazy"}
 
 ### Help users move faster
 
-Enable quick page access with scrolling, page navigation controls, thumbnails, bookmarks, and hyperlinks.
+{: .description}
+Enable quick page access with scrolling, page navigation controls, thumbnails, bookmarks, and hyperlinks across both short and long PDF files.
+
+{% endcolumn %}
+
+{% column %}
+
+![Make PDF content easier to find.](images/pdf-viewer-sdk/pdf-viewer-fully-accessible.svg){:width="70" height="70" loading="lazy"}
 
 ### Make content easier to find
 
-Support built-in text search with highlighted matches so users can locate important information quickly.
+{: .description}
+Support built-in text search with highlighted matches so users can locate important words and phrases quickly.
 
----
+{% endcolumn %}
 
-## 4. Alternating feature sections
+{% endmultiple_column %}
 
-### 01 — HIGH-FIDELITY RENDERING · CONSISTENT VIEWING
+{: #features-section}
+{% col_1 %}
 
-## Accurate PDF Rendering Across Documents
+PDF VIEWING FEATURES
+
+## Explore PDF documents with clarity and speed
+
+Give users a smooth way to read, search, navigate, and explore PDF content with tools designed for everyday document workflows.
+
+{: .feature-wrapper}
+{% col_1 %}
+
+{: .content-wrapper}
+{% column %}
+
+### Accurate PDF rendering across documents
 
 Display PDF files with high fidelity while preserving the original layout and visual structure. Users get a dependable reading experience across documents with different page counts, sizes, and content complexity.
 
-- Preserve text, images, annotations, and form elements during viewing.
-- Maintain the visual layout of business documents, reports, manuals, and forms.
-- Support a smooth reading experience across a wide range of PDF files.
+{: .list-wrapper}
+* Preserve text, images, annotations, and form elements during viewing.
+* Maintain the visual layout of business documents, reports, manuals, and forms.
+* Support a smooth reading experience across a wide range of PDF files.
 
-**Text link:** Explore PDF viewing →
+{% endcolumn %}
 
-**Mockup direction:** Show a detailed PDF page with charts, paragraphs, images, highlights, and form fields rendered cleanly inside the viewer. Add a small label reading “High-fidelity rendering.”
+{: .image-container}
+{% column %}
 
----
+![High-fidelity PDF rendering.](images/blazor-pdf-viewer/blazor-pdf-viewer-customize.webp){: .feature-image loading="lazy" width="380" height="214"}
 
-### 02 — PAGE NAVIGATION · QUICK MOVEMENT
+{% endcolumn %}
 
-## Effortless Page Navigation
+{% endcol_1 %}
+
+{: .feature-wrapper}
+{% col_1 %}
+
+{: .image-container}
+{% column %}
+
+![Effortless PDF page navigation.](images/blazor-pdf-viewer/blazor-pdf-viewer-customize.webp){: .feature-image loading="lazy" width="380" height="214"}
+
+{% endcolumn %}
+
+{: .content-wrapper}
+{% column %}
+
+### Effortless page navigation
 
 Help users move through PDF documents efficiently with page navigation tools, scroll-based viewing, and direct page access. This improves usability for both short files and large multi-page documents.
 
-- Move between pages using toolbar navigation controls.
-- Jump directly to a specific page when users need fast access.
-- Support smooth scrolling for continuous document reading.
+{: .list-wrapper}
+* Move between pages using toolbar navigation controls.
+* Jump directly to a specific page when users need fast access.
+* Support smooth scrolling for continuous document reading.
 
-**Text link:** Explore page navigation →
+{% endcolumn %}
 
-**Mockup direction:** Show a viewer toolbar with previous and next controls, a page number input, and a long document in scroll view. Include a page indicator such as “Page 12 of 96.”
+{% endcol_1 %}
 
----
+{: .feature-wrapper}
+{% col_1 %}
 
-### 03 — TEXT SEARCH · IN-DOCUMENT DISCOVERY
+{: .content-wrapper}
+{% column %}
 
-## Advanced PDF Search
+### Find content faster with text search
 
 Enable users to search PDF content instantly and move between highlighted results. Text search helps users review contracts, invoices, reports, and technical documents more efficiently.
 
-- Search for words or phrases within the document.
-- Highlight matching results directly in the page view.
-- Let users move between matches without losing reading context.
+{: .list-wrapper}
+* Search for words or phrases within the document.
+* Highlight matching results directly in the page view.
+* Let users move between matches without losing reading context.
 
-**Text link:** See text search capabilities →
+{% endcolumn %}
 
-**Mockup direction:** Show a search panel with a query entered, several highlighted matches on the page, and next and previous result controls.
+{: .image-container}
+{% column %}
 
----
+![PDF text search with highlighted results.](images/blazor-pdf-viewer/blazor-pdf-viewer-customize.webp){: .feature-image loading="lazy" width="380" height="214"}
 
-### 04 — THUMBNAILS AND BOOKMARKS · VISUAL SHORTCUTS
+{% endcolumn %}
 
-## Visual Navigation & Bookmarks
+{% endcol_1 %}
 
-Give users quick visual and structural navigation tools through thumbnails and bookmarks. These tools make it easier to scan the document and jump to the right section without manual page-by-page searching.
+{: .feature-wrapper}
+{% col_1 %}
 
-- Show page thumbnails in a dedicated navigation panel.
-- Support bookmarks for structured PDF documents.
-- Help users locate sections faster in long or complex files.
+{: .image-container}
+{% column %}
 
-**Text link:** Learn about thumbnails and bookmarks →
+![PDF thumbnails, bookmarks, and hyperlink navigation.](images/blazor-pdf-viewer/blazor-pdf-viewer-customize.webp){: .feature-image loading="lazy" width="380" height="214"}
 
-**Mockup direction:** Show a left panel with page thumbnails and a bookmark tree. Highlight one thumbnail and one selected bookmark leading to the active page.
+{% endcolumn %}
 
----
+{: .content-wrapper}
+{% column %}
 
-### 05 — HYPERLINK SUPPORT · CONNECTED CONTENT
+### Thumbnails, bookmarks, and hyperlinks
 
-## Seamless PDF Link Navigation
+Help users explore PDF documents more efficiently with thumbnail previews, bookmark-based navigation, and hyperlink support. These tools reduce manual scrolling and make long documents easier to use.
 
-Let users interact with hyperlinks embedded in PDF files, including web links, email links, and internal document destinations. This helps users move between related content with less friction.
+{: .list-wrapper}
+* View page thumbnails in a dedicated navigation panel.
+* Use bookmarks to navigate structured PDF documents quickly.
+* Open web links, email links, and internal document destinations from within the PDF viewer.
 
-- Open web links from within the PDF viewer.
-- Support email links and internal document jumps.
-- Preserve the natural navigation flow of linked PDF content.
+{% endcolumn %}
 
-**Text link:** Explore hyperlink support →
+{% endcol_1 %}
 
-**Mockup direction:** Show a page containing linked text and a tooltip or hover state over a hyperlink. Include a second visual cue for an internal jump target.
+{% endcol_1 %}
 
----
+{: #info-section}
+{% col_1 %}
 
-## Supported platforms section
+{: .feature-wrapper .center-align}
+{% col_1 %}
+
+{: .content-wrapper}
+{% column %}
+
+GUIDED DOCUMENT EXPLORATION
+
+### Help users reach the right content faster
+
+Syncfusion PDF Viewer SDK combines multiple navigation tools so users can move through PDF content in the way that suits the document best. They can scroll naturally, jump to a page, search for text, use thumbnails for visual scanning, or open bookmarks for structured navigation. This creates a smoother reading experience across both short files and large multi-page documents.
+
+{% endcolumn %}
+
+{: .steps-container}
+{% column %}
+
+{% col_1 %}
+01
+
+{% column %}
+### Open
+Load a PDF document with its layout, text, images, annotations, and form elements preserved.
+{% endcolumn %}
+
+{% endcol_1 %}
+
+{% col_1 %}
+02
+
+{% column %}
+### Navigate
+Move through pages with toolbar controls, direct page access, or continuous scrolling.
+{% endcolumn %}
+
+{% endcol_1 %}
+
+{% col_1 %}
+03
+
+{% column %}
+### Search
+Find words or phrases and move between highlighted matches inside the document.
+{% endcolumn %}
+
+{% endcol_1 %}
+
+{% col_1 %}
+04
+
+{% column %}
+### Explore
+Use thumbnails, bookmarks, and hyperlinks to reach relevant content faster.
+{% endcolumn %}
+
+{% endcol_1 %}
+
+{% endcolumn %}
+
+{% endcol_1 %}
+
+{% endcol_1 %}
+
+{: #supported-platforms-table-section}
+{% col_1 %}
+
+PLATFORM SUPPORT
 
 ## View PDF documents across platforms
 
 Core PDF viewing features are available across web, desktop, and cross-platform frameworks. Availability varies by feature for capabilities such as thumbnails, bookmarks, and hyperlinks.
 
-| Capability | JavaScript, React, Angular, Vue | Blazor | ASP.NET Core & MVC | WPF & WinForms | .NET MAUI | Flutter |
-|---|---|---|---|---|---|---|
-| High-fidelity PDF viewing | Supported | Supported | Supported | Supported | Supported | Supported |
-| Page navigation | Supported | Supported | Supported | Supported | Supported | Supported |
-| Text search | Supported | Supported | Supported | Supported | Supported | Supported |
-| Thumbnails | Supported | Supported | Supported | Supported | Not supported | Not supported |
-| Bookmarks / document outline | Supported | Supported | Supported | Supported | Supported | Supported |
-| Hyperlinks | Supported | Supported | Supported | Supported | Supported | Supported |
+{% column %}
 
-> **Platform note:** Platform support should be presented conservatively and verified for the framework being promoted. Some navigation and side-panel features may vary across implementations.
+<table>
+    <thead>
+        <tr>
+            <th scope="col">Capability</th>
+            <th scope="col">JS, React, Angular, Vue</th>
+            <th scope="col">Blazor</th>
+            <th scope="col">ASP.NET Core &amp; MVC</th>
+            <th scope="col">WPF &amp; WinForms</th>
+            <th scope="col">.NET MAUI</th>
+            <th scope="col">Flutter</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">High-fidelity PDF viewing</th>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+        </tr>
+        <tr>
+            <th scope="row">Page navigation</th>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+        </tr>
+        <tr>
+            <th scope="row">Text search</th>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+        </tr>
+        <tr>
+            <th scope="row">Thumbnails</th>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="not-supported" aria-label="Not supported"></td>
+            <td class="not-supported" aria-label="Not supported"></td>
+        </tr>
+        <tr>
+            <th scope="row">Bookmarks / document outline</th>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+        </tr>
+        <tr>
+            <th scope="row">Hyperlinks</th>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+        </tr>
+    </tbody>
+</table>
 
----
+{% endcolumn %}
 
-## 5. FAQ
+{% endcol_1 %}
+
+{: #faq-section}
+{% multiple_column split:2 %}
+
+{% header %}
 
 ## Frequently asked questions
 
-Everything development teams need to evaluate document viewing and navigation with Syncfusion PDF Viewer SDK.
+{% endheader %}
 
-<details>
-<summary><strong>What viewing capabilities are included in Syncfusion PDF Viewer SDK?</strong></summary>
+{% column %}
 
-Syncfusion PDF Viewer SDK includes high-fidelity PDF rendering, page navigation, text search, thumbnails, bookmarks, and hyperlink interaction. Together, these capabilities help developers build complete in-app document reading experiences.
-</details>
+{: .question}
+{% header %}
 
-<details>
-<summary><strong>Can users search for text inside a PDF document?</strong></summary>
+### What viewing capabilities are included in Syncfusion PDF Viewer SDK?
 
-Yes. Users can search for words or phrases in the document, view highlighted matches, and move between search results. This helps them locate information quickly in long or content-rich PDF files.
-</details>
+{% endheader %}
 
-<details>
-<summary><strong>Does the PDF Viewer support page thumbnails and bookmarks?</strong></summary>
+{: .answer}
+{% header %}
 
-Yes. Thumbnails provide a visual page overview, while bookmarks help users jump directly to important sections in structured documents. These tools improve navigation speed and reduce manual scrolling.
-</details>
+Syncfusion PDF Viewer SDK includes high-fidelity PDF rendering, page navigation, text search, thumbnails, bookmarks, and hyperlink interaction for complete in-app document reading experiences.
 
-<details>
-<summary><strong>Are hyperlinks inside PDF documents supported?</strong></summary>
+{% endheader %}
 
-Yes. The viewer supports hyperlinks such as web links, email links, and internal document destinations. This allows users to follow related content directly from the PDF.
-</details>
+{% endcolumn %}
 
-<details>
-<summary><strong>Is page navigation available for long PDF documents?</strong></summary>
+{% column %}
 
-Yes. Users can move through long files using page navigation controls, direct page access, and scroll-based viewing. This helps maintain a smooth reading experience across multi-page documents.
-</details>
+{: .question}
+{% header %}
 
----
+### Can users search for text inside a PDF document?
 
-## 6. Resources and documentation
+{% endheader %}
 
-## Start building PDF viewing experiences
+{: .answer}
+{% header %}
 
-### LIVE DEMO
+Yes. Users can search for words or phrases in the document, view highlighted matches, and move between search results to locate information quickly.
 
-#### Try PDF document viewing
+{% endheader %}
 
+{% endcolumn %}
+
+{% column %}
+
+{: .question}
+{% header %}
+
+### Does the PDF Viewer support page thumbnails and bookmarks?
+
+{% endheader %}
+
+{: .answer}
+{% header %}
+
+Yes. Thumbnails provide a visual page overview, while bookmarks help users jump directly to important sections in structured PDF documents.
+
+{% endheader %}
+
+{% endcolumn %}
+
+{% column %}
+
+{: .question}
+{% header %}
+
+### Are hyperlinks inside PDF documents supported?
+
+{% endheader %}
+
+{: .answer}
+{% header %}
+
+Yes. The viewer supports web links, email links, and internal document destinations so users can follow related content directly from the PDF.
+
+{% endheader %}
+
+{% endcolumn %}
+
+{% column %}
+
+{: .question}
+{% header %}
+
+### Is page navigation available for long PDF documents?
+
+{% endheader %}
+
+{: .answer}
+{% header %}
+
+Yes. Users can move through long files using page navigation controls, direct page access, and scroll-based viewing for a smoother reading experience.
+
+{% endheader %}
+
+{% endcolumn %}
+
+{% column %}
+
+{: .question}
+{% header %}
+
+### Does the PDF Viewer preserve document layout during viewing?
+
+{% endheader %}
+
+{: .answer}
+{% header %}
+
+Yes. The viewer preserves document layout, text, images, annotations, and form elements so users can view PDF documents as intended.
+
+{% endheader %}
+
+{% endcolumn %}
+
+{% endmultiple_column %}
+
+{: #documentation-section}
+{% multiple_column split:3 %}
+
+PDF VIEWER SDK
+
+## Documentation
+
+Explore the demos and documentation that help you evaluate PDF viewing, page navigation, text search, thumbnails, bookmarks, and hyperlink support.
+
+{% column %}
+
+### Try PDF document viewing
+
+{: .description}
 Explore the reading, navigation, and search experience in a working Syncfusion sample.
 
-**Link:** [View PDF Viewer demo](https://document.syncfusion.com/demos/pdf-viewer/react/#/tailwind3/pdfviewer/default)
+[Explore](https://document.syncfusion.com/demos/pdf-viewer/react/#/tailwind3/pdfviewer/default){: aria-label="Explore"}
 
-### DOCUMENTATION
+{% endcolumn %}
 
-#### Build with React PDF navigation
+{% column %}
 
-Learn how to add page navigation, bookmarks, thumbnails, hyperlinks, and search to the React PDF Viewer.
+### Page navigation
 
-**Link:** [Read the React navigation guide](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/react/interactive-pdf-navigation/overview)
+{: .description}
+Learn how to add page navigation tools for moving through PDF documents efficiently.
 
-### DOCUMENTATION
+[Explore](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/react/interactive-pdf-navigation/overview){: aria-label="Explore"}
 
-#### Open and search PDF files
+{% endcolumn %}
 
-Explore text search in React PDF Viewer workflows.
+{% column %}
 
-**Link:** [Read the React text search guide](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/react/text-search/overview)
+### Text search
 
----
+{: .description}
+Search for words and phrases inside PDF files and move through highlighted results.
 
-## 7. Sibling capabilities
+[Explore](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/react/text-search/overview){: aria-label="Explore"}
 
-## Build a complete in-app PDF experience
+{% endcolumn %}
 
-**See all PDF Viewer capabilities →**
+{% column %}
 
-### Annotations and review
+### Thumbnails
 
-Add highlights, shapes, free text, stamps, comments, and collaborative markup to PDF workflows.
+{: .description}
+Use page thumbnails to help users scan and jump through document pages visually.
 
-### PDF forms
+[Explore](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/react/interactive-pdf-navigation/page-thumbnail){: aria-label="Explore"}
 
-Support interactive AcroForm filling, form field design, validation, and form data workflows.
+{% endcolumn %}
 
-### Printing and download
+{% column %}
 
-Let users print or download PDF documents as part of a complete document experience.
+### Bookmarks
 
-### Magnification and toolbar tools
+{: .description}
+Navigate structured PDF documents quickly with bookmark-based document exploration.
 
-Add zoom controls and configurable toolbar options for better usability and document access.
+[Explore](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/react/interactive-pdf-navigation/bookmark){: aria-label="Explore"}
 
----
+{% endcolumn %}
 
-## 8. CTA band
+{% column %}
+
+### Hyperlinks
+
+{: .description}
+Support web links, email links, and internal jumps directly inside the PDF viewer.
+
+[Explore](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/react/interactive-pdf-navigation/hyperlink){: aria-label="Explore"}
+
+{% endcolumn %}
+
+{% endmultiple_column %}
+
+{: #free-trial-content}
+{% multiple_column split:2 %}
 
 ## Bring fast, accurate PDF viewing into your application
 
-Give users a clear way to open, read, search, and navigate PDF documents with dependable rendering and intuitive viewer controls.
+Give users a clear way to open, read, search, and navigate PDF documents with dependable rendering and intuitive viewer controls. Evaluate the full functionality free for 30 days.
 
-**Primary CTA:** Start Free Trial  
-**Secondary CTA:** Contact Sales
+{% column %}
 
----
+[Start Your 30-Day Free Trial](/downloads?tag=es-ft-view-section){: .primary-cta aria-label="Free Trial Download"}
 
-## 9. Footer
+{: .trial-disclaimer-text}
+No credit card required.
 
-Use the standard Syncfusion global footer with the existing five-column layout:
+{% endcolumn%}
 
-- **Brand:** Syncfusion company description and social links
-- **Products:** Developer platforms and product families
-- **Resources:** Demos, documentation, blogs, forums, and knowledge base
-- **Company:** About, careers, contact, and partners
-- **Legal:** Privacy, terms, cookies, and accessibility
+{% column %}
 
-Include the standard copyright and legal bar.
+[Book a Live Demo](/request-demo?tag=es-ft-view-request-demo-section){: .secondary-cta aria-label="Book a Live Demo"}
 
----
+{% endcolumn%}
 
-## Content and implementation notes
-
-- Keep the page focused on product evaluation and user outcomes, not setup steps or API detail.
-- Use “PDF viewer,” “view PDF documents,” “page navigation,” “text search,” “thumbnails,” and “bookmarks” naturally throughout the copy.
-- Keep the topic centered on viewing and navigation, not editing or authoring workflows.
-- Do not introduce unsupported claims around editing, redaction, signing, or advanced document processing in this page.
-- Platform availability can vary by feature. Keep framework references localized in documentation links where needed.
-
-## Primary verification sources
-
-- [Syncfusion PDF Viewer SDK overview](https://www.syncfusion.com/pdf-viewer-sdk)
-- [React page navigation documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/react/interactive-pdf-navigation/overview)
-- [Blazor page navigation documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/blazor/interactive-pdf-navigation/pages)
-- [WPF page navigation documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/wpf/navigating-through-the-pages)
-- [Flutter page navigation documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/flutter/page-navigation)
-- [MAUI page navigation documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/maui/page-navigation)
-- [React text search documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/react/text-search/overview)
-- [Blazor text search documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/blazor/text-search/text-search-features)
-- [WPF text search documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/wpf/searching-text)
-- [Flutter text search documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/flutter/text-search)
-- [MAUI text search documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/maui/text-search)
-- [React thumbnails documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/react/interactive-pdf-navigation/page-thumbnail)
-- [Blazor thumbnails documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/blazor/interactive-pdf-navigation/page-thumbnail)
-- [WPF thumbnails documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/wpf/working-with-thumbnail-navigation)
-- [React bookmark documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/react/interactive-pdf-navigation/bookmark)
-- [Blazor bookmark documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/blazor/interactive-pdf-navigation/bookmark)
-- [WPF bookmark documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/wpf/bookmark-navigation)
-- [Flutter bookmark documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/flutter/bookmark-navigation)
-- [MAUI document outline documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/maui/document-outline)
-- [React hyperlink documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/react/interactive-pdf-navigation/hyperlink)
-- [Blazor hyperlink documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/blazor/interactive-pdf-navigation/hyperlink)
-- [WPF hyperlink documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/wpf/working-with-hyperlinks)
-- [Flutter hyperlink documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/flutter/hyperlink-navigation)
-- [MAUI hyperlink documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/maui/hyperlink-navigation)
-- [Syncfusion PDF Viewer demo](https://document.syncfusion.com/demos/pdf-viewer/react/#/tailwind3/pdfviewer/default)
+{% endmultiple_column %}

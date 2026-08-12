@@ -1,338 +1,580 @@
-# Review and Annotate Feature Page — Content Specification
-
-## Page metadata
-
-| Element | Recommended copy |
-|---|---|
-| **Page URL** | `https://www.syncfusion.com/pdf-viewer-sdk/review-and-annotate` |
-| **Title** | Review and Annotate PDF Documents | Syncfusion |
-| **Meta description** | Add PDF review and annotation tools to your application with text markup, comments, shapes, stamps, measurements, electronic signatures, and annotation import and export. |
-| **H1** | Review, comment, and approve PDF documents in your application |
-| **Hero description** | Let users mark up, comment on, measure, sign, and share PDF documents without leaving your application. Syncfusion PDF Viewer SDK gives developers ready-to-use review tools and flexible APIs for building clear, connected annotation workflows. |
-
-> **Editorial note:** Use “review and annotate PDF documents” and “PDF annotations” naturally throughout the page. Keep the copy focused on in-app review workflows, approvals, and collaboration. Do not imply that electronic signatures are certificate-based digital signatures.
-
+---
+title: Review and Annotate PDF Documents | Syncfusion
+description: Add PDF review and annotation tools to your application with text markup, comments, shapes, stamps, measurements, electronic signatures, and annotation import and export.
+demolink: "https://www.syncfusion.com/demos/pdf-viewer"
+product_schema_name: The Syncfusion PDF Viewer SDK
+product_schema_description: The Syncfusion PDF Viewer SDK helps teams review and annotate PDF documents with text markup, comments, shapes, stamps, measurements, electronic signatures, and annotation data import and export.
+fb_image: "https://cdn.syncfusion.com/content/images/company-logos/Syncfusion_Logo_Image.png"
+twitter_image: "https://cdn.syncfusion.com/content/images/company-logos/Syncfusion_logos.png"
+keywords: review and annotate PDF documents, PDF annotations, PDF review tools, PDF comments, PDF markup, measurement annotations, electronic signatures, annotation import export
 ---
 
-## 1. Sticky navbar
-
-Use the standard Syncfusion global navigation.
-
-- **Brand:** Syncfusion
-- **Navigation:** Products · Solutions · Resources · Pricing
-- **Utility actions:** Sign In · Contact Sales
-- **Primary CTA:** Start Free Trial
-
----
-
-## 2. Hero
-
-**Breadcrumb:** Home / PDF Viewer SDK / Review and Annotate
-
-**Badge pill:** PDF VIEWER SDK · REVIEW AND ANNOTATE
+{% banner %}
+{% col_2_equal %}
 
 # Review, Annotate, and Approve PDF Documents
 
-Let users review, annotate, and approve PDF documents without leaving your application. Syncfusion PDF Viewer SDK provides built-in review tools and flexible APIs for creating efficient document review and approval workflows.
+* Let users review and annotate PDF documents without leaving your application.
+* Add text markup, comments, shapes, stamps, measurements, and electronic signatures in one viewer.
+* Support document review, acknowledgment, and approval workflows with built-in tools and APIs.
+* Import and export annotation data to continue reviews across sessions and systems.
 
+![Review and annotate PDF documents.](images/blazor-pdf-viewer/blazor-pdf-viewer-customize.webp){: .right-section-image width="1920" height="589" loading="lazy"}
 
-**Primary CTA:** Start Free Trial  
-**Secondary CTA:** View Live Demo
+{% endcol_2_equal %}
+{% endbanner %}
 
-**Microcopy:** No credit card required · Developer support included
+{: .new-feature-layout-sdk}
+new-feature-layout-sdk
 
-**Hero mockup direction:** Show a PDF document open in the viewer with highlighted text, a sticky note, a shape annotation, a stamp, and a visible signature field interaction. Add a compact comments or annotations panel and a small status pill such as “Ready for review” or “Approved with comments.”
+{: #why-choose-section}
+{% multiple_column split:3 %}
 
+PDF review workflows
 
----
+## Review PDF documents with less friction
 
-## 3. Three-up value propositions
+Give users the tools they need to comment, mark up, approve, and share feedback directly in the document. Syncfusion PDF Viewer SDK helps teams keep review context on the page and move documents through clear approval workflows.
 
-## Streamline document review workflows
+{% column %}
 
-Add markup, comments, approvals, and annotation sharing to your application with built-in UI components and developer-friendly APIs.
+![PDF text markup.](images/pdf-viewer-sdk/pdf-viewer-fully-accessible.svg){:width="70" height="70" .lazy loading="lazy"}
 
-### Add clear feedback in context
+### Add feedback in context
 
-Help users highlight text, place notes, draw shapes, and leave comments directly on the page so feedback stays tied to the right content.
+{: .description}
+Help users highlight text, place notes, draw shapes, and leave comments exactly where feedback belongs, so reviews stay clear and easy to follow.
 
-### Support review and approval steps
+{% endcolumn %}
 
-Enable teams to use stamps, ink, and electronic signatures to move from review to acknowledgment and sign-off in one workflow.
+{% column %}
 
-### Share annotations across systems
+![PDF approval workflows.](images/pdf-viewer-sdk/pdf-viewer-fully-accessible.svg){:width="70" height="70" loading="lazy"}
 
-Import and export annotation data to save progress, continue reviews later, and connect document workflows with external systems.
+### Support approval steps
 
----
+{: .description}
+Use stamps, ink, and electronic signatures to support review, acknowledgment, and sign-off workflows inside the PDF viewer.
 
-## 4. Alternating feature sections
+{% endcolumn %}
 
-### 01 — TEXT MARKUP · REVIEW TOOLS
+{% column %}
 
-## Highlight important information
+![Share PDF annotations.](images/pdf-viewer-sdk/pdf-viewer-fully-accessible.svg){:width="70" height="70" loading="lazy"}
 
-Make document reviews easier to understand and act on with familiar text markup tools. Users can highlight, underline, strikethrough, and apply squiggly annotations to specific words and phrases in a PDF.
+### Share annotation data
 
-- Highlight important words, sentences, and sections during review.
-- Use underline and strikethrough to show edits, updates, or removals.
-- Apply squiggly markup to flag unclear or questionable content.
-- Keep feedback directly connected to the original text on the page.
+{: .description}
+Import and export annotation data to save progress, resume later, and connect PDF review workflows with external systems.
 
-**Text link:** Explore text markup →
+{% endcolumn %}
 
-**Mockup direction:** Show a document paragraph with highlighted text, an underlined sentence, a strikethrough phrase, and a squiggly annotation on a word needing review.
+{% endmultiple_column %}
 
----
+{: #features-section}
+{% col_1 %}
 
-### 02 — COMMENTS AND SHAPES · VISUAL FEEDBACK
+PDF annotations
 
-## Add shapes and notes
+## Built for review and approval workflows
 
-Help users provide precise visual and written feedback directly within a document. Shape annotations, free text, and sticky notes make it easy to communicate changes without modifying the original PDF content.
+Give users familiar PDF annotation tools for markup, comments, measurement, and approval. Keep document review inside your application with built-in UI and developer-friendly APIs.
 
-- Use rectangles, circles, arrows, lines, and polygons to mark areas visually.
-- Add free text directly on the page for visible instructions and notes.
-- Attach sticky notes for follow-up comments and extra context.
-- Keep feedback organized and easy to follow.
+{: .feature-wrapper}
+{% col_1 %}
 
-**Text link:** Discover comments and shapes →
+{: .content-wrapper}
+{% column %}
 
-**Mockup direction:** Show a PDF page with an arrow pointing to a section, a rectangle around a content block, a sticky note icon, and a free text comment placed on the page.
+### Text markup
 
----
+Make document reviews easier to read and act on with familiar text markup tools. Users can highlight, underline, strikethrough, and apply squiggly annotations to specific words and phrases in a PDF.
 
-### 03 — INK, STAMPS, AND SIGNING · APPROVAL WORKFLOWS
+{: .list-wrapper}
+* Highlight important words, sentences, and sections during review.
+* Use underline and strikethrough to show edits, updates, or removals.
+* Apply squiggly markup to flag unclear or questionable content.
+* Keep feedback directly connected to the original text on the page.
 
-## Capture document approvals
+{% endcolumn %}
 
-Support real review and sign-off workflows without sending users to another tool. Ink annotations, stamps, and electronic signatures help teams acknowledge, approve, and complete review cycles inside the viewer.
+{: .image-container}
+{% column %}
 
-- Capture handwritten notes, sketches, and markings with ink annotations.
-- Apply common stamps such as Approved, Draft, Reviewed, and Confidential.
-- Add handwritten, typed, or image-based electronic signatures.
-- Support document acknowledgment and sign-off workflows in one place.
+![Text markup annotations in PDF Viewer SDK.](images/blazor-pdf-viewer/blazor-pdf-viewer-customize.webp){: .feature-image loading="lazy" width="380" height="214"}
 
-**Text link:** See approval tools →
+{% endcolumn %}
 
-**Mockup direction:** Show a review document with a handwritten mark, an “Approved” stamp, and an electronic signature dialog offering Draw, Type, and Upload image options.
+{% endcol_1 %}
 
-> **Accuracy note:** Electronic signatures in annotation workflows are distinct from certificate-based digital signatures and signature validation.
+{: .feature-wrapper}
+{% col_1 %}
 
----
+{: .image-container}
+{% column %}
 
-### 04 — MEASUREMENT TOOLS · TECHNICAL REVIEW
+![Shapes and notes in PDF Viewer SDK.](images/blazor-pdf-viewer/blazor-pdf-viewer-customize.webp){: .feature-image loading="lazy" width="380" height="214"}
 
-## Measure with precision
+{% endcolumn %}
 
-Go beyond basic comments when users need more detailed review capabilities. Measurement annotations help teams review plans, drawings, and technical documents directly in the viewer.
+{: .content-wrapper}
+{% column %}
 
-- Measure distance, perimeter, area, radius, and volume in supported workflows.
-- Review engineering drawings, plans, and technical PDFs with greater accuracy.
-- Keep measurements visible alongside other annotations and comments.
-- Support detailed review without leaving the document workflow.
+### Shapes and notes
 
-**Text link:** Learn about measurement annotations →
+Help users provide precise visual and written feedback directly within a document. Shape annotations, free text, and sticky notes make it easy to communicate changes without changing the original PDF content.
 
-**Mockup direction:** Show a technical drawing with distance and area measurements placed on the page, along with a measurement toolbar and visible values.
+{: .list-wrapper}
+* Use rectangles, circles, arrows, lines, and polygons to mark areas visually.
+* Add free text directly on the page for visible instructions and notes.
+* Attach sticky notes for follow-up comments and extra context.
+* Keep feedback organized and easy to follow.
 
----
+{% endcolumn %}
 
-### 05 — IMPORT AND EXPORT · ANNOTATION DATA
+{% endcol_1 %}
 
-## Share Annotation Data
+{: .feature-wrapper}
+{% col_1 %}
 
-Move annotation data independently of the PDF file to support longer review cycles and connected workflows. Save comments for later, restore previous review states, or transfer annotations between users and systems.
+{: .content-wrapper}
+{% column %}
 
-- Import existing annotations when work resumes on a document.
-- Export annotation data for collaboration, storage, or downstream processing.
-- Support shared review workflows across sessions and teams.
-- Help preserve review context without re-creating annotations manually.
+### Approval tools
 
-**Text link:** Explore annotation import and export →
+Support real review and sign-off workflows without sending users to another tool. Ink annotations, stamps, and electronic signatures help teams acknowledge, approve, and complete review and approval workflows inside the viewer.
 
-**Mockup direction:** Show a PDF document connected to review-state cards such as “Team review,” “Saved annotations,” and “External workflow,” with annotation import and export indicators.
+{: .list-wrapper}
+* Capture handwritten notes, sketches, and markings with ink annotations.
+* Apply common stamps such as Approved, Draft, Reviewed, and Confidential.
+* Add handwritten, typed, or image-based electronic signatures.
+* Support acknowledgment and sign-off workflows in one place.
 
----
+{% endcolumn %}
 
-### 06 — REVIEW FLOW · COLLABORATION
+{: .image-container}
+{% column %}
 
-## Manage review workflows
+![Approval tools in PDF Viewer SDK.](images/blazor-pdf-viewer/blazor-pdf-viewer-customize.webp){: .feature-image loading="lazy" width="380" height="214"}
 
-Help teams progress from feedback to decisions in a clear document review flow. Users can annotate documents, review comments, approve changes, and continue collaboration without switching tools.
+{% endcolumn %}
 
-- Add markup, notes, shapes, and review indicators in one viewer.
-- Review feedback and make informed decisions.
-- Use stamps or electronic signatures to support acknowledgment and approval.
-- Continue review workflows by sharing annotation data across sessions.
+{% endcol_1 %}
 
-**Text link:** See review workflow capabilities →
+{: .feature-wrapper}
+{% col_1 %}
 
-**Mockup direction:** Show a staged review flow with four steps labeled Annotate, Review, Approve, and Share beside the viewer.
+{: .image-container}
+{% column %}
 
----
+![Measurement annotations in PDF Viewer SDK.](images/blazor-pdf-viewer/blazor-pdf-viewer-customize.webp){: .feature-image loading="lazy" width="380" height="214"}
 
-## Supported platforms section
+{% endcolumn %}
+
+{: .content-wrapper}
+{% column %}
+
+### Measurement annotations
+
+Go beyond basic comments when users need more detailed review capabilities. Measurement annotations help teams review plans, drawings, and technical PDFs directly in the viewer.
+
+{: .list-wrapper}
+* Measure distance, perimeter, area, radius, and volume in supported workflows.
+* Review drawings, plans, and technical PDFs with greater precision.
+* Keep measurements visible alongside other annotations and comments.
+* Support detailed review without leaving the document workflow.
+
+{% endcolumn %}
+
+{% endcol_1 %}
+
+{% endcol_1 %}
+
+{: #info-section}
+{% col_1 %}
+
+{: .feature-wrapper .center-align}
+{% col_1 %}
+
+{: .content-wrapper}
+{% column %}
+
+CONNECTED REVIEW WORKFLOWS
+
+### Save, share, and continue reviews
+
+Move annotation data independently of the PDF file to support longer review cycles and connected workflows. Teams can save comments for later, restore review state, and share annotation data across users, sessions, or external systems. Electronic signatures in annotation workflows are visible approval marks and are distinct from certificate-based digital signatures.
+
+{% endcolumn %}
+
+{: .steps-container}
+{% column %}
+
+{% col_1 %}
+01
+
+{% column %}
+### Annotate
+Add text markup, notes, shapes, measurements, stamps, or signatures directly on the page.
+{% endcolumn %}
+
+{% endcol_1 %}
+
+{% col_1 %}
+02
+
+{% column %}
+### Review
+Read comments, check markup, and keep feedback tied to the right document content.
+{% endcolumn %}
+
+{% endcol_1 %}
+
+{% col_1 %}
+03
+
+{% column %}
+### Approve
+Use stamps, ink, or electronic signatures to support acknowledgment and sign-off.
+{% endcolumn %}
+
+{% endcol_1 %}
+
+{% col_1 %}
+04
+
+{% column %}
+### Share
+Import or export annotation data to continue the workflow across sessions and systems.
+{% endcolumn %}
+
+{% endcol_1 %}
+
+{% endcolumn %}
+
+{% endcol_1 %}
+
+{% endcol_1 %}
+
+{: #supported-platforms-table-section}
+{% col_1 %}
+
+PLATFORM SUPPORT
 
 ## Review and annotate PDFs across platforms
 
-Review and annotation features are available across web, desktop, and cross-platform frameworks. Availability varies by platform for selected capabilities such as measurement annotations and annotation data workflows.
+Review and annotation features are available across web, desktop, and cross-platform frameworks. Availability varies for selected capabilities such as measurement annotations and annotation data workflows.
 
-| Capability | JavaScript, React, Angular, Vue | Blazor | ASP.NET Core & MVC | WPF & WinForms | .NET MAUI | Flutter |
-|---|---|---|---|---|---|---|
-| Text markup annotations | Supported | Supported | Supported | Supported | Supported | Supported |
-| Shape annotations | Supported | Supported | Supported | Supported | Supported | Not supported |
-| Free text and sticky notes | Supported | Supported | Supported | Supported | Supported | Partially supported |
-| Ink annotations | Supported | Supported | Supported | Supported | Supported | Not supported |
-| Stamps | Supported | Supported | Supported | Supported | Supported | Not supported |
-| Measurement annotations | Supported | Supported | Supported | Not supported | Not supported | Not supported |
-| Electronic signatures | Supported | Supported | Supported | Supported | Supported | Supported |
-| Import and export annotations | Supported | Supported | Supported | Supported | Supported | Not supported |
+{% column %}
 
-> **Platform note:** Platform support should be presented conservatively and verified for the framework being promoted. Advanced capabilities may vary across implementations.
+<table>
+    <thead>
+        <tr>
+            <th scope="col">Capability</th>
+            <th scope="col">JS, React, Angular, Vue</th>
+            <th scope="col">Blazor</th>
+            <th scope="col">ASP.NET Core &amp; MVC</th>
+            <th scope="col">WPF &amp; WinForms</th>
+            <th scope="col">.NET MAUI</th>
+            <th scope="col">Flutter</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Text markup annotations</th>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+        </tr>
+        <tr>
+            <th scope="row">Shape annotations</th>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="not-supported" aria-label="Not supported"></td>
+        </tr>
+        <tr>
+            <th scope="row">Free text and sticky notes</th>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="partially-supported" aria-label="Partially Supported"></td>
+        </tr>
+        <tr>
+            <th scope="row">Ink annotations</th>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="not-supported" aria-label="Not supported"></td>
+        </tr>
+        <tr>
+            <th scope="row">Stamps</th>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="not-supported" aria-label="Not supported"></td>
+        </tr>
+        <tr>
+            <th scope="row">Measurement annotations</th>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="not-supported" aria-label="Not supported"></td>
+            <td class="not-supported" aria-label="Not supported"></td>
+            <td class="not-supported" aria-label="Not supported"></td>
+        </tr>
+        <tr>
+            <th scope="row">Electronic signatures</th>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+        </tr>
+        <tr>
+            <th scope="row">Import and export annotations</th>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="not-supported" aria-label="Not supported"></td>
+        </tr>
+    </tbody>
+</table>
 
----
+{% endcolumn %}
 
-## 5. FAQ
+{% endcol_1 %}
+
+{: #faq-section}
+{% multiple_column split:2 %}
+
+{% header %}
 
 ## Frequently asked questions
 
-Everything development teams need to evaluate PDF review and annotation with Syncfusion PDF Viewer SDK.
+{% endheader %}
 
-<details>
-<summary><strong>What annotation tools are available?</strong></summary>
+{% column %}
+
+{: .question}
+{% header %}
+
+### What annotation tools are available in PDF Viewer SDK?
+
+{% endheader %}
+
+{: .answer}
+{% header %}
 
 Text markup, shapes, free text, sticky notes, ink, stamps, measurements, electronic signatures, and annotation import and export are supported.
-</details>
 
-<details>
-<summary><strong>Can users annotate without changing PDF content?</strong></summary>
+{% endheader %}
+
+{% endcolumn %}
+
+{% column %}
+
+{: .question}
+{% header %}
+
+### Can users annotate PDFs without changing the original document content?
+
+{% endheader %}
+
+{: .answer}
+{% header %}
 
 Yes. Users can add review annotations while keeping the original PDF content unchanged.
-</details>
 
-<details>
-<summary><strong>Can comments be attached to specific content?</strong></summary>
+{% endheader %}
+
+{% endcolumn %}
+
+{% column %}
+
+{: .question}
+{% header %}
+
+### Can comments be attached to specific content in a PDF?
+
+{% endheader %}
+
+{: .answer}
+{% header %}
 
 Yes. Comments and markup can be placed directly on relevant content for clearer document review.
-</details>
 
-<details>
-<summary><strong>Is it suitable for technical reviews?</strong></summary>
+{% endheader %}
+
+{% endcolumn %}
+
+{% column %}
+
+{: .question}
+{% header %}
+
+### Is PDF Viewer SDK suitable for technical document reviews?
+
+{% endheader %}
+
+{: .answer}
+{% header %}
 
 Yes. Measurement annotations support more precise review of drawings, plans, and technical PDF documents.
-</details>
 
-<details>
-<summary><strong>Can annotation data be imported and exported?</strong></summary>
+{% endheader %}
+
+{% endcolumn %}
+
+{% column %}
+
+{: .question}
+{% header %}
+
+### Can annotation data be imported and exported?
+
+{% endheader %}
+
+{: .answer}
+{% header %}
 
 Yes. Annotation import and export help teams save, restore, share, and reuse review data.
-</details>
 
-<details>
-<summary><strong>Can annotations support approval workflows?</strong></summary>
+{% endheader %}
 
-Yes. Stamps, ink, and electronic signatures support review, approval, acknowledgment, and sign-off workflows.
-</details>
+{% endcolumn %}
 
-<details>
-<summary><strong>Are electronic and digital signatures the same?</strong></summary>
+{% column %}
 
-No. Electronic signatures capture visible marks, while digital signatures use cryptographic validation for authenticity and integrity.
-</details>
+{: .question}
+{% header %}
 
----
+### Are electronic signatures the same as digital signatures?
 
-## 6. Resources and documentation
+{% endheader %}
 
-## Start building PDF review workflows
+{: .answer}
+{% header %}
 
-### LIVE DEMO
+No. Electronic signatures are visible approval marks, while digital signatures use cryptographic validation for authenticity and integrity.
 
-#### Try review and annotation tools
+{% endheader %}
 
-See text markup, comments, shapes, stamps, and other review tools in action in a live sample.
+{% endcolumn %}
 
-**Link:** [View PDF Viewer demos](https://www.syncfusion.com/demos/pdf-viewer)
+{% endmultiple_column %}
 
-### DOCUMENTATION
+{: #documentation-section}
+{% multiple_column split:3 %}
 
-#### Explore PDF Viewer SDK features
+PDF review workflows
 
-Learn more about the available PDF Viewer SDK capabilities and review workflows.
+## Documentation
 
-**Link:** [Visit the PDF Viewer SDK product page](https://www.syncfusion.com/pdf-viewer-sdk)
+Explore the tools and workflows available for reviewing and annotating PDF documents in your application.
 
-### SUPPORT
+{% column %}
 
-#### Get help with implementation
+### Text markup annotations
 
-Access Syncfusion support resources, ask questions, and get help when building review experiences.
+{: .description}
+Highlight, underline, strike through, and mark text directly in the PDF.
 
-**Link:** [Contact support](https://support.syncfusion.com/create)
+[Explore](https://www.syncfusion.com/pdf-viewer-sdk){: aria-label="Explore"}
 
----
+{% endcolumn %}
 
-## 7. Sibling capabilities
+{% column %}
 
-## Build a complete in-app PDF experience
+### Comments and shapes
 
-**See all PDF Viewer capabilities →**
+{: .description}
+Add notes, free text, arrows, lines, rectangles, circles, and other visual markup.
 
-### PDF forms
+[Explore](https://www.syncfusion.com/pdf-viewer-sdk){: aria-label="Explore"}
 
-Add interactive PDF forms, form filling, field design, validation, and form data workflows.
+{% endcolumn %}
 
-### Electronic and digital signatures
+{% column %}
 
-Support electronic signing experiences and certificate-based digital signature workflows.
+### Ink and stamps
 
-### Redaction
+{: .description}
+Support handwritten markup and common review stamps for approval workflows.
 
-Mark and permanently remove sensitive text, images, or regions before documents are shared.
+[Explore](https://www.syncfusion.com/pdf-viewer-sdk){: aria-label="Explore"}
 
-### Page organization
+{% endcolumn %}
 
-Add, remove, rotate, reorder, and import pages to prepare polished PDF documents.
+{% column %}
 
----
+### Measurement annotations
 
-## 8. CTA band
+{: .description}
+Review technical PDFs with measurement tools in supported platforms.
 
-## Bring PDF review and annotation into your application
+[Explore](https://www.syncfusion.com/pdf-viewer-sdk){: aria-label="Explore"}
 
-Give users one place to comment, mark up, measure, approve, and share PDF documents with developer-friendly APIs and Syncfusion support.
+{% endcolumn %}
 
-**Primary CTA:** Start Free Trial  
-**Secondary CTA:** Contact Sales
+{% column %}
 
----
+### Electronic signatures
 
-## 9. Footer
+{: .description}
+Add visible signatures for acknowledgment and sign-off in review workflows.
 
-Use the standard Syncfusion global footer with the existing five-column layout:
+[Explore](https://www.syncfusion.com/pdf-viewer-sdk){: aria-label="Explore"}
 
-- **Brand:** Syncfusion company description and social links
-- **Products:** Developer platforms and product families
-- **Resources:** Demos, documentation, blogs, forums, and knowledge base
-- **Company:** About, careers, contact, and partners
-- **Legal:** Privacy, terms, cookies, and accessibility
+{% endcolumn %}
 
-Include the standard copyright and legal bar.
+{% column %}
 
----
+### Annotation import and export
 
-## Content and implementation notes
+{: .description}
+Save, restore, and transfer annotation data across sessions and systems.
 
-- Keep the page focused on product outcomes and evaluation rather than setup steps or API details.
-- Use “review and annotate PDF documents,” “PDF annotations,” and “document review workflows” naturally.
-- Do not imply that electronic signatures are certificate-based digital signatures.
-- Keep measurement claims limited to supported platforms.
-- Keep platform coverage conservative and framework-specific where necessary.
-- Use annotation import and export language consistently rather than implying universal real-time collaboration.
+[Explore](https://www.syncfusion.com/pdf-viewer-sdk){: aria-label="Explore"}
 
-## Primary verification sources
+{% endcolumn %}
 
-- [Syncfusion PDF Viewer SDK overview](https://www.syncfusion.com/pdf-viewer-sdk)
-- [PDF Viewer demos](https://www.syncfusion.com/demos/pdf-viewer)
-- [Syncfusion support](https://support.syncfusion.com/create)
+{% endmultiple_column %}
+
+{: #free-trial-content}
+{% multiple_column split:2 %}
+
+## Start reviewing and annotating PDF documents in your app
+
+Evaluate Syncfusion PDF Viewer SDK with built-in review tools, flexible APIs, and support from the team behind the product. Try the full functionality free for 30 days.
+
+{% column %}
+
+[Start Your 30-Day Free Trial](/downloads?tag=es-ft-review-annotate-section){: .primary-cta aria-label="Free Trial Download"}
+
+{: .trial-disclaimer-text}
+No credit card required.
+
+{% endcolumn%}
+
+{% column %}
+
+[Book a Live Demo](/request-demo?tag=es-ft-review-annotate-request-demo-section){: .secondary-cta aria-label="Book a Live Demo"}
+
+{% endcolumn%}
+
+{% endmultiple_column %}

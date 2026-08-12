@@ -1,318 +1,584 @@
-# AcroForm Fields Feature Page — Content Specification
-
-## Page metadata
-
-| Element | Recommended copy |
-|---|---|
-| **Page URL** | `https://www.syncfusion.com/pdf-viewer-sdk/acroform-fields` |
-| **Title** | PDF AcroForm Filling and Designer SDK | Syncfusion |
-| **Meta description** | Add PDF form filling, visual form design, signatures, validation, and form data import and export to your application with Syncfusion PDF Viewer SDK. |
-| **H1** | Build complete PDF form experiences into your application |
-| **Hero description** | Let users fill, design, sign, validate, and submit interactive PDF forms without leaving your application. Syncfusion PDF Viewer SDK gives developers ready-to-use UI and flexible APIs for building secure, connected AcroForm workflows. |
-
-> **Editorial note:** “AcroForm fields” is the precise product term, but “PDF forms” is clearer for search and first-time visitors. Use both naturally. The shorter `/acroform-fields` slug is recommended because it describes the complete capability set and remains useful as the page expands.
-
+---
+title: PDF AcroForm Filling and Designer SDK | Syncfusion
+description: Add PDF form filling, visual form design, signatures, validation, and form data import and export to your application with Syncfusion PDF Viewer SDK.
+demolink: "https://ej2.syncfusion.com/react/demos/"
+product_schema_name: The Syncfusion PDF Viewer SDK
+product_schema_description: The Syncfusion PDF Viewer SDK helps developers build complete PDF form workflows with AcroForm filling, visual form design, electronic signatures, validation, form data import and export, and flattened output for distribution.
+fb_image: "https://cdn.syncfusion.com/content/images/company-logos/Syncfusion_Logo_Image.png"
+twitter_image: "https://cdn.syncfusion.com/content/images/company-logos/Syncfusion_logos.png"
+keywords: PDF forms SDK, AcroForm fields, PDF form filling, PDF form designer, electronic signature fields, PDF form validation, FDF XFDF JSON, flatten PDF forms
 ---
 
-## 1. Sticky navbar
+{% banner %}
+{% col_2_equal %}
 
-Use the standard Syncfusion global navigation.
+# Build complete PDF form workflows into your application
 
-- **Brand:** Syncfusion
-- **Navigation:** Products · Solutions · Resources · Pricing
-- **Utility actions:** Sign In · Contact Sales
-- **Primary CTA:** Start Free Trial
+* Let users fill interactive PDF forms directly in your app.
+* Design AcroForm fields visually or manage them through APIs.
+* Capture electronic signatures and initials in the right places.
+* Import, export, validate, and flatten PDF form data for connected workflows.
 
----
+![PDF form filling and designer in Syncfusion PDF Viewer SDK.](images/blazor-pdf-viewer/blazor-pdf-viewer-customize.webp){: .right-section-image width="1920" height="589" loading="lazy"}
 
-## 2. Hero
+{% endcol_2_equal %}
+{% endbanner %}
 
-**Breadcrumb:** Home / PDF Viewer SDK / AcroForm Fields
+{: .new-feature-layout-sdk}
+new-feature-layout-sdk
 
-**Badge pill:** PDF VIEWER SDK · ACROFORM FIELDS
+{: #why-choose-section}
+{% multiple_column split:3 %}
 
-# Build complete PDF form experiences into your application
+PDF form workflows
 
-Let users fill, design, sign, validate, and submit interactive PDF forms without leaving your application. Syncfusion PDF Viewer SDK gives developers ready-to-use UI and flexible APIs for building secure, connected AcroForm workflows.
+## Build end-to-end PDF form experiences
 
-**Primary CTA:** Start Free Trial  
-**Secondary CTA:** View Live Demo
+Add form filling, field design, signatures, validation, and data exchange to your application with ready-to-use UI and flexible APIs.
 
-**Microcopy:** No credit card required · Developer support included
+{% column %}
 
-**Hero mockup direction:** Show a PDF application form open in the viewer. Include a populated text field, selected radio button, checked checkbox, dropdown, required-field marker, and signature field. Add a compact side panel titled “Form fields” and a top status pill reading “Ready to submit.” Avoid depicting XFA forms.
+![PDF form filling.](images/pdf-viewer-sdk/pdf-viewer-fully-accessible.svg){:width="70" height="70" .lazy loading="lazy"}
 
----
+### Fill PDF forms
 
-## 3. Three-up value propositions
+{: .description}
+Let users enter text, choose options, and complete signature fields inside interactive AcroForms without leaving your application.
 
-## Build end-to-end PDF form workflows
+{% endcolumn %}
 
-Add form filling, field design, signatures, validation, and data exchange to your application with configurable UI components and programmatic APIs.
+{% column %}
 
-### Add intuitive form interactions
+![PDF form designer.](images/pdf-viewer-sdk/pdf-viewer-fully-accessible.svg){:width="70" height="70" loading="lazy"}
 
-Enable users to enter values, select options, and provide signatures through interactive fields embedded directly in your application.
+### Design fields
 
-### Configure fields visually or programmatically
+{: .description}
+Create and manage form fields visually with the Form Designer or configure names, values, and behavior through code.
 
-Use the Form Designer to create and customize fields, or manage field properties, values, and behavior through APIs.
+{% endcolumn %}
 
-### Integrate form data with your systems
+{% column %}
 
-Prefill fields from application data, retrieve user-entered values, and connect form submissions to APIs, databases, and downstream services.
+![PDF form data integration.](images/pdf-viewer-sdk/pdf-viewer-fully-accessible.svg){:width="70" height="70" loading="lazy"}
 
----
+### Connect data
 
-## 4. Alternating feature sections
+{: .description}
+Prefill forms, capture user-entered values, and exchange form data with APIs, databases, and business systems.
 
-### 01 — FORM FILLING · UI + API
+{% endcolumn %}
 
-## Embed PDF Form Filling
+{% endmultiple_column %}
 
-Turn existing AcroForms into responsive in-app experiences. Users can enter and revise information through the viewer UI, while developers can retrieve fields and set values programmatically for faster, more accurate data entry.
+{: #features-section}
+{% col_1 %}
 
-- Support text boxes, password fields, checkboxes, radio buttons, drop-down lists, list boxes, signature fields, and initial fields.
-- Prefill known details from user profiles, application state, or business systems.
-- Retain entered values when users save or download the updated PDF.
+PDF form capabilities
 
-**Text link:** Explore form filling →
+## Multiple ways to build PDF form workflows
 
-**Mockup direction:** Browser-style viewer with a customer onboarding form. Show a mix of populated text, selection, and choice controls, plus a “65% filled” indicator.
+Support interactive form filling, visual field design, signatures, validation, and data exchange in one PDF Viewer SDK.
 
----
+{: .feature-wrapper}
+{% col_1 %}
 
-### 02 — FORM DESIGNER · NO-CODE UI + APIs
+{: .content-wrapper}
+{% column %}
 
-## Design fillable PDF forms
+### Fill AcroForm fields in your app
 
-Add interactive fields to an existing PDF without sending the document to a separate authoring tool. The built-in Form Designer makes layout work visual, while APIs support dynamic form creation at runtime.
+Turn existing PDF forms into smooth in-app experiences. Users can enter, review, and update values through the viewer UI, while developers can prefill and read fields through APIs.
 
-- Add, move, resize, align, copy, paste, group, reorder, and remove fields.
-- Configure names, default values, fonts, colors, borders, alignment, visibility, tab order, and required or read-only states.
-- Customize the designer toolbar so each role sees only the tools needed for its workflow.
+{: .list-wrapper}
+* Support text boxes, password fields, checkboxes, radio buttons, drop-down lists, list boxes, signature fields, and initial fields.
+* Prefill known values from user profiles, application state, or connected systems.
+* Preserve entered data when users save or download the updated PDF.
 
-**Text link:** Discover the Form Designer →
+{% endcolumn %}
 
-**Mockup direction:** PDF canvas with a selected text field, resize handles, alignment guide, and properties panel. Show field tools for text, checkbox, radio, dropdown, signature, and initials.
+{: .image-container}
+{% column %}
 
----
+![Fill PDF AcroForm fields.](images/blazor-pdf-viewer/blazor-pdf-viewer-customize.webp){: .feature-image loading="lazy" width="380" height="214"}
 
-### 03 — SIGNATURE AND INITIAL FIELDS · ELECTRONIC SIGNING
+{% endcolumn %}
 
-## Add electronic signatures to PDF forms
+{% endcol_1 %}
 
-Add dedicated signature and initial fields to approval forms, agreements, and acknowledgments. Users can provide a drawn, typed, or image-based electronic signature and place it in the intended field without disrupting surrounding content.
+{: .feature-wrapper}
+{% col_1 %}
 
-- Create signature and initial fields through the designer or programmatically.
-- Support drawn, typed, and image-based electronic signature experiences.
-- Preserve the PDF’s form structure while capturing acknowledgments and approvals.
+{: .image-container}
+{% column %}
 
-**Text link:** See signature field capabilities →
+![Design PDF form fields.](images/blazor-pdf-viewer/blazor-pdf-viewer-customize.webp){: .feature-image loading="lazy" width="380" height="214"}
 
-**Mockup direction:** Approval form with separate “Signature” and “Initials” fields. Show a compact signature dialog with Draw, Type, and Upload image tabs.
+{% endcolumn %}
 
-> **Accuracy note:** Electronic signatures and initials are distinct from certificate-based digital signatures and cryptographic signature validation. Link to the dedicated digital-signature capability where that distinction matters.
+{: .content-wrapper}
+{% column %}
 
----
+### Design fillable PDF forms
 
-### 04 — IMPORT AND EXPORT · FDF + XFDF + JSON
+Add interactive fields to an existing PDF without moving to a separate authoring tool. Use the built-in Form Designer for visual editing or APIs for runtime form creation.
 
-## Connect PDF forms to APIs and business systems
+{: .list-wrapper}
+* Add, move, resize, align, copy, paste, group, reorder, and remove fields.
+* Configure names, default values, fonts, colors, borders, alignment, visibility, tab order, and required or read-only states.
+* Tailor the Form Designer toolbar so each role sees only the tools needed for its workflow.
 
-Move field values independently of the underlying PDF. Prefill a form from stored records, save a user’s progress, submit responses to a service, or restore previously saved data when the document is opened again.
+{% endcolumn %}
 
-- Import FDF, XFDF, or JSON data and map values to matching form fields.
-- Export form values as a downloadable file or application object for custom persistence.
-- Use lifecycle events to show progress, handle failures, validate input, or record audit activity.
+{% endcol_1 %}
 
-**Text link:** Learn about form data exchange →
+{: .feature-wrapper}
+{% col_1 %}
 
-**Mockup direction:** A central PDF form connected to three cards labeled “Customer database,” “REST API,” and “Form archive.” Add format chips for FDF, XFDF, and JSON.
+{: .content-wrapper}
+{% column %}
 
-> **Platform note:** Format availability varies by platform. Some Syncfusion desktop and mobile PDF Viewers also support XML. Confirm the platform matrix before presenting XML as universally available.
+### Add signature and initial fields
 
----
+Support approvals, acknowledgments, and sign-off flows with dedicated electronic signature and initial fields. Users can draw, type, or upload a signature without interrupting the rest of the form experience.
 
-### 05 — VALIDATION AND EVENTS · WORKFLOW CONTROL
+{: .list-wrapper}
+* Create signature and initial fields through the designer or programmatically.
+* Support drawn, typed, and image-based electronic signature input.
+* Preserve the PDF form structure while capturing approvals and acknowledgments.
 
-## Validate form data before processing
+{% endcolumn %}
 
-Apply required-field checks before users submit, print, or download a document. Form events give your application the context it needs to guide users, synchronize state, enforce business rules, and respond to every important interaction.
+{: .image-container}
+{% column %}
 
-- Identify missing required fields and focus users on the information that needs attention.
-- Add custom validation for business-specific formats and rules before continuing.
-- React to field creation, selection, updates, movement, resizing, removal, and data import or export.
+![Electronic signature and initial fields in PDF forms.](images/blazor-pdf-viewer/blazor-pdf-viewer-customize.webp){: .feature-image loading="lazy" width="380" height="214"}
 
-**Text link:** Explore form validation →
+{% endcolumn %}
 
-**Mockup direction:** Viewer showing two highlighted required fields and a validation summary reading “2 fields need attention,” with event cards flowing into an application workflow panel.
+{% endcol_1 %}
 
----
+{: .feature-wrapper}
+{% col_1 %}
 
-### 06 — FLATTEN FORM DATA · READ-ONLY OUTPUT
+{: .image-container}
+{% column %}
 
-## Flatten submitted form data
+![Import and export PDF form data.](images/blazor-pdf-viewer/blazor-pdf-viewer-customize.webp){: .feature-image loading="lazy" width="380" height="214"}
 
-Convert interactive fields and their submitted values into static PDF content. The captured data remains visible while the fields can no longer be edited—ideal for distribution, record retention, and archival workflows.
+{% endcolumn %}
 
-- Preserve submitted field values and their visual appearance.
-- Prevent further changes to captured form data.
-- Add flattening to submission, approval, or archival pipelines.
+{: .content-wrapper}
+{% column %}
 
-**Text link:** Learn about flattening PDF forms →
+### Exchange form data with your systems
 
-**Mockup direction:** Before-and-after document cards. The first shows interactive field outlines and an edit cursor; the second shows fixed values, a lock icon, and a “Flattened” status pill.
+Move field values independently of the PDF so forms fit cleanly into connected business workflows. Prefill forms, save progress, submit responses, or restore saved data when a document is reopened.
 
----
+{: .list-wrapper}
+* Import FDF, XFDF, or JSON data and map values to matching form fields.
+* Export form values for download or custom persistence in application workflows.
+* Use events to track progress, handle failures, validate input, or record activity.
 
-## 5. FAQ
+{% endcolumn %}
+
+{% endcol_1 %}
+
+{: .feature-wrapper}
+{% col_1 %}
+
+{: .content-wrapper}
+{% column %}
+
+### Validate fields before submission
+
+Apply required-field checks before users submit, print, or download a document. Form events help your application guide users, enforce business rules, and react to key interactions.
+
+{: .list-wrapper}
+* Identify missing required fields and direct users to the information that needs attention.
+* Add custom validation for business-specific rules and formats.
+* Respond to field creation, selection, updates, movement, resizing, removal, and data import or export.
+
+{% endcolumn %}
+
+{: .image-container}
+{% column %}
+
+![Validate PDF form data before processing.](images/blazor-pdf-viewer/blazor-pdf-viewer-customize.webp){: .feature-image loading="lazy" width="380" height="214"}
+
+{% endcolumn %}
+
+{% endcol_1 %}
+
+{% endcol_1 %}
+
+{: #info-section}
+{% col_1 %}
+
+{: .feature-wrapper .center-align}
+{% col_1 %}
+
+{: .content-wrapper}
+{% column %}
+
+READ-ONLY OUTPUT
+
+### Flatten submitted form data
+
+When form entry is complete, flatten the PDF so submitted values become part of the document content. The visible data stays in place, but the interactive fields are no longer editable. This is useful for distribution, record retention, and archival workflows.
+
+{% endcolumn %}
+
+{: .steps-container}
+{% column %}
+
+{% col_1 %}
+01
+
+{% column %}
+### Fill
+Complete text, choice, signature, and initial fields in the PDF form.
+{% endcolumn %}
+
+{% endcol_1 %}
+
+{% col_1 %}
+02
+
+{% column %}
+### Validate
+Check required fields and enforce business rules before continuing.
+{% endcolumn %}
+
+{% endcol_1 %}
+
+{% col_1 %}
+03
+
+{% column %}
+### Flatten
+Convert submitted form fields and values into static PDF content.
+{% endcolumn %}
+
+{% endcol_1 %}
+
+{% col_1 %}
+04
+
+{% column %}
+### Share
+Distribute a PDF with preserved values and no editable form fields.
+{% endcolumn %}
+
+{% endcol_1 %}
+
+{% endcolumn %}
+
+{% endcol_1 %}
+
+{% endcol_1 %}
+
+{: #supported-platforms-table-section}
+{% col_1 %}
+
+PLATFORM SUPPORT
+
+## One PDF forms model, implemented per platform
+
+Form filling and signature fields are available across the viewer platforms. Form authoring, field APIs, and data exchange are strongest on web and desktop implementations.
+
+{% column %}
+
+<table>
+    <thead>
+        <tr>
+            <th scope="col">Capability</th>
+            <th scope="col">JS, React, Angular, Vue</th>
+            <th scope="col">Blazor</th>
+            <th scope="col">ASP.NET Core &amp; MVC</th>
+            <th scope="col">WPF &amp; WinForms</th>
+            <th scope="col">.NET MAUI</th>
+            <th scope="col">Flutter</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Fill form fields</th>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+        </tr>
+        <tr>
+            <th scope="row">Signature and initial fields</th>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+        </tr>
+        <tr>
+            <th scope="row">Form Designer (author fields)</th>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="not-supported" aria-label="Not supported"></td>
+            <td class="not-supported" aria-label="Not supported"></td>
+        </tr>
+        <tr>
+            <th scope="row">Import and export form data</th>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="partially-supported" aria-label="Partially Supported"></td>
+            <td class="partially-supported" aria-label="Partially Supported"></td>
+        </tr>
+        <tr>
+            <th scope="row">Flatten form fields</th>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="not-supported" aria-label="Not supported"></td>
+            <td class="not-supported" aria-label="Not supported"></td>
+        </tr>
+        <tr>
+            <th scope="row">Programmatic field API and events</th>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="supported" aria-label="Supported"></td>
+            <td class="partially-supported" aria-label="Partially Supported"></td>
+            <td class="partially-supported" aria-label="Partially Supported"></td>
+        </tr>
+    </tbody>
+</table>
+
+{% endcolumn %}
+
+{% endcol_1 %}
+
+{: #faq-section}
+{% multiple_column split:2 %}
+
+{% header %}
 
 ## Frequently asked questions
 
-Everything development teams need to evaluate PDF form filling and design with Syncfusion PDF Viewer SDK.
+{% endheader %}
 
-<details>
-<summary><strong>What is an AcroForm?</strong></summary>
+{% column %}
 
-An AcroForm is the interactive form format built into PDF. It can contain fields such as text boxes, checkboxes, radio buttons, lists, drop-downs, signatures, and initials. Syncfusion PDF Viewer SDK can display and fill existing AcroForms, and supported web viewers can also create and edit fields with the Form Designer. XFA forms are a different PDF form technology and should not be described as supported AcroForms.
-</details>
+{: .question}
+{% header %}
 
-<details>
-<summary><strong>Which PDF form fields can users fill or create?</strong></summary>
+### What is an AcroForm?
 
-The web PDF Viewer supports text boxes, password fields, checkboxes, radio buttons, list boxes, drop-down lists, signature fields, and initial fields. Exact field types and designer capabilities can vary by platform, so link visitors to the relevant framework documentation.
-</details>
+{% endheader %}
 
-<details>
-<summary><strong>Can my application prefill and read form values programmatically?</strong></summary>
+{: .answer}
+{% header %}
 
-Yes. APIs let developers retrieve form fields, update values and properties, reset fields, and connect form state to application logic. This supports scenarios such as pre-populating customer information, saving drafts, validating responses, and submitting data to backend services.
-</details>
+An AcroForm is the interactive form format built into PDF. It can include text boxes, checkboxes, radio buttons, lists, drop-downs, signature fields, and initial fields. AcroForms are different from XFA forms.
 
-<details>
-<summary><strong>Which formats are supported for form data import and export?</strong></summary>
+{% endheader %}
 
-Syncfusion’s web PDF Viewer supports FDF, XFDF, and JSON form data workflows, including object-based export for custom persistence. Some desktop and mobile platforms also support XML. Format availability should be stated for the specific framework being promoted.
-</details>
+{% endcolumn %}
 
-<details>
-<summary><strong>Can the viewer prevent submission when required fields are missing?</strong></summary>
+{% column %}
 
-Yes. Required-field validation can run before actions such as submitting, printing, or downloading. Your application can cancel the action, display a message, and direct the user to missing fields. Developers can also apply custom business validation using form values and events.
-</details>
+{: .question}
+{% header %}
 
-<details>
-<summary><strong>Are signature fields the same as digital signatures?</strong></summary>
+### Which PDF form fields can users fill or create?
 
-No. Signature and initial fields capture an electronic signature—such as a drawn, typed, or image-based mark—within a form. Certificate-based digital signatures use cryptography to establish document authenticity and integrity and are covered by separate Syncfusion signature capabilities.
-</details>
+{% endheader %}
 
-<details>
-<summary><strong>Can submitted form data be made non-editable?</strong></summary>
+{: .answer}
+{% header %}
 
-Yes. Flattening converts interactive fields and their submitted values into static PDF content. The captured data remains visible while the fields are no longer interactive or editable.
-</details>
+Supported web PDF Viewer workflows include text boxes, password fields, checkboxes, radio buttons, list boxes, drop-down lists, signature fields, and initial fields. Exact field support can vary by platform.
 
----
+{% endheader %}
 
-## 6. Resources and documentation
+{% endcolumn %}
 
-## Start building PDF form workflows
+{% column %}
 
-### LIVE DEMO
+{: .question}
+{% header %}
 
-#### Try PDF form filling
+### Can my application prefill and read form values programmatically?
 
-Interact with supported fields and evaluate the end-user form experience in a working Syncfusion sample.
+{% endheader %}
 
-**Link:** [View PDF Viewer demos](https://ej2.syncfusion.com/react/demos/)
+{: .answer}
+{% header %}
 
-### DOCUMENTATION
+Yes. APIs let developers retrieve form fields, update values and properties, reset fields, and connect form state to application workflows such as prefill, validation, draft saving, and submission.
 
-#### Build with React PDF forms
+{% endheader %}
 
-Learn how to fill fields through the UI or APIs, import existing values, and validate a form before submission.
+{% endcolumn %}
 
-**Link:** [Read the React form-filling guide](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/react/forms/form-filling)
+{% column %}
 
-### DOCUMENTATION
+{: .question}
+{% header %}
 
-#### Create and manage form fields
+### Which formats are supported for form data import and export?
 
-Explore the Form Designer workflow for creating, editing, styling, and removing interactive fields.
+{% endheader %}
 
-**Link:** [Explore form creation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/react/forms/overview-create-forms)
+{: .answer}
+{% header %}
 
----
+Syncfusion web PDF Viewer workflows support FDF, XFDF, and JSON for form data exchange. Some desktop and mobile viewers also support XML, but format availability should be confirmed per platform.
 
-## 7. Sibling capabilities
+{% endheader %}
 
-## Build a complete in-app PDF experience
+{% endcolumn %}
 
-**See all PDF Viewer capabilities →**
+{% column %}
 
-### Annotations and review
+{: .question}
+{% header %}
 
-Add highlights, shapes, free text, stamps, comments, and collaborative markup to PDF workflows.
+### Can the viewer prevent submission when required fields are missing?
 
-### Electronic and digital signatures
+{% endheader %}
 
-Support electronic signing experiences and certificate-based digital signature workflows.
+{: .answer}
+{% header %}
 
-### Redaction
+Yes. Required-field validation can run before actions such as submitting, printing, or downloading. Applications can stop the action, show guidance, and direct users to missing fields.
 
-Mark and permanently remove sensitive text, images, or regions before documents are shared.
+{% endheader %}
 
-### Page organization
+{% endcolumn %}
 
-Add, remove, rotate, reorder, and import pages to prepare polished PDF documents.
+{% column %}
 
----
+{: .question}
+{% header %}
 
-## 8. CTA band
+### Are signature fields the same as digital signatures?
+
+{% endheader %}
+
+{: .answer}
+{% header %}
+
+No. Signature and initial fields capture an electronic signature inside a form. Certificate-based digital signatures use cryptography to verify document authenticity and integrity and are a separate capability.
+
+{% endheader %}
+
+{% endcolumn %}
+
+{% endmultiple_column %}
+
+{: #documentation-section}
+{% multiple_column split:3 %}
+
+PDF form resources
+
+## Documentation
+
+Explore demos and documentation for PDF form filling, field design, validation, and form data workflows.
+
+{% column %}
+
+### Try PDF form filling
+
+{: .description}
+Interact with supported fields and review the end-user form experience in a working sample.
+
+[Explore](https://ej2.syncfusion.com/react/demos/){: aria-label="Explore"}
+
+{% endcolumn %}
+
+{% column %}
+
+### Form filling
+
+{: .description}
+Learn how to fill fields through the UI or APIs and work with existing AcroForm documents.
+
+[Explore](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/react/forms/form-filling){: aria-label="Explore"}
+
+{% endcolumn %}
+
+{% column %}
+
+### Form Designer
+
+{: .description}
+Create, edit, style, and manage interactive PDF form fields visually.
+
+[Explore](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/asp-net-core/forms/form-designer){: aria-label="Explore"}
+
+{% endcolumn %}
+
+{% column %}
+
+### Export form fields
+
+{: .description}
+Save PDF form data for downloads, reuse, or custom persistence workflows.
+
+[Explore](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/javascript-es5/forms/import-export-form-fields/export-form-fields){: aria-label="Explore"}
+
+{% endcolumn %}
+
+{% column %}
+
+### Import form fields
+
+{: .description}
+Load saved form values back into matching PDF fields.
+
+[Explore](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/javascript-es5/forms/import-export-form-fields/import-form-fields){: aria-label="Explore"}
+
+{% endcolumn %}
+
+{% column %}
+
+### Form validation and events
+
+{: .description}
+Add required-field checks and react to key form interactions in your application.
+
+[Explore](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/react/forms/form-field-events){: aria-label="Explore"}
+
+{% endcolumn %}
+
+{% endmultiple_column %}
+
+{: #free-trial-content}
+{% multiple_column split:2 %}
 
 ## Bring complete PDF form workflows into your application
 
-Give users one place to fill, design, sign, validate, and submit PDF forms—backed by developer-friendly APIs and Syncfusion support.
+Evaluate PDF form filling, field design, signatures, validation, and data exchange with your own documents and workflows. Test the full feature set free for 30 days.
 
-**Primary CTA:** Start Free Trial  
-**Secondary CTA:** Contact Sales
+{% column %}
 
----
+[Start Your 30-Day Free Trial](/downloads?tag=es-ft-acroform-fields-section){: .primary-cta aria-label="Free Trial Download"}
 
-## 9. Footer
+{: .trial-disclaimer-text}
+No credit card required.
 
-Use the standard Syncfusion global footer with the existing five-column layout:
+{% endcolumn%}
 
-- **Brand:** Syncfusion company description and social links
-- **Products:** Developer platforms and product families
-- **Resources:** Demos, documentation, blogs, forums, and knowledge base
-- **Company:** About, careers, contact, and partners
-- **Legal:** Privacy, terms, cookies, and accessibility
+{% column %}
 
-Include the standard copyright and legal bar.
+[Book a Live Demo](/request-demo?tag=es-ft-acroform-fields-request-demo-section){: .secondary-cta aria-label="Book a Live Demo"}
 
----
+{% endcolumn%}
 
-## Content and implementation notes
-
-- Keep the page focused on product outcomes and evaluation. Put API names and code samples in linked documentation, not in primary landing-page copy.
-- Use “PDF form,” “interactive PDF form,” and “AcroForm” naturally. Avoid using “forms” alone in metadata because it is too broad.
-- Do not claim XFA support. AcroForms and XFA are different technologies.
-- Do not imply that electronic signatures provide certificate-based identity or integrity validation.
-- Describe flattening through its application outcome: preserving submitted values as static PDF content and preventing further field editing.
-- Localize platform claims. The overall PDF Viewer SDK spans multiple UI stacks, but exact form fields, data formats, designer features, and APIs vary by framework.
-
-## Primary verification sources
-
-- [Syncfusion PDF Viewer SDK overview](https://www.syncfusion.com/pdf-viewer-sdk)
-- [React PDF Viewer form-filling feature page](https://www.syncfusion.com/pdf-viewer-sdk/react-pdf-viewer/form-filling-pdf)
-- [React form-filling documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/react/forms/form-filling)
-- [ASP.NET Core Form Designer documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/asp-net-core/forms/form-designer)
-- [JavaScript form data export documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/javascript-es5/forms/import-export-form-fields/export-form-fields)
-- [JavaScript form data import documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/javascript-es5/forms/import-export-form-fields/import-form-fields)
-- [ASP.NET Core form validation documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/asp-net-core/forms/form-validation)
-- [React form field events documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/react/forms/form-field-events)
-- [Xamarin AcroForms and flattening documentation](https://help.syncfusion.com/document-processing/pdf/pdf-viewer/xamarin/working-with-pdf-acroforms)
- 
+{% endmultiple_column %}

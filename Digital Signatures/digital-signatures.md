@@ -14,10 +14,10 @@ keywords: PDF Viewer SDK digital signatures, PDF digital signature, certificate 
 
 # Build secure PDF signing workflows into your application
 
-* Support PDF digital signature workflows with the Syncfusion PDF Viewer SDK.
-* Enable certificate-based signing and validation through Syncfusion PDF Library integration.
-* Customize visible signature appearance with signer details, images, and timestamps.
-* Manage review-ready signing workflows with signing, validation, and verification steps.
+* Integrate digital signature workflows into PDF viewing and approval processes.
+* Enable certificate-based signing and signature validation through Syncfusion PDF Library integration.
+* Customize visible signature appearances with signer details, images, and timestamps.
+* Streamline document review, signing, and verification workflows in a unified experience.
 
 ![PDF Viewer digital signatures.](images/blazor-pdf-viewer/blazor-pdf-viewer-customize.webp){: .right-section-image width="1920" height="589" loading="lazy"}
 

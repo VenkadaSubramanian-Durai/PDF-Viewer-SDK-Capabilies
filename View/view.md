@@ -68,7 +68,7 @@ Support built-in text search with highlighted matches so users can locate import
 
 ### 01 — HIGH-FIDELITY RENDERING · CONSISTENT VIEWING
 
-## Render PDF documents accurately
+## Accurate PDF Rendering Across Documents
 
 Display PDF files with high fidelity while preserving the original layout and visual structure. Users get a dependable reading experience across documents with different page counts, sizes, and content complexity.
 
@@ -84,7 +84,7 @@ Display PDF files with high fidelity while preserving the original layout and vi
 
 ### 02 — PAGE NAVIGATION · QUICK MOVEMENT
 
-## Navigate pages with ease
+## Effortless Page Navigation
 
 Help users move through PDF documents efficiently with page navigation tools, scroll-based viewing, and direct page access. This improves usability for both short files and large multi-page documents.
 
@@ -100,7 +100,7 @@ Help users move through PDF documents efficiently with page navigation tools, sc
 
 ### 03 — TEXT SEARCH · IN-DOCUMENT DISCOVERY
 
-## Find text inside PDF files
+## Advanced PDF Search
 
 Enable users to search PDF content instantly and move between highlighted results. Text search helps users review contracts, invoices, reports, and technical documents more efficiently.
 
@@ -116,7 +116,7 @@ Enable users to search PDF content instantly and move between highlighted result
 
 ### 04 — THUMBNAILS AND BOOKMARKS · VISUAL SHORTCUTS
 
-## Browse documents faster
+## Visual Navigation & Bookmarks
 
 Give users quick visual and structural navigation tools through thumbnails and bookmarks. These tools make it easier to scan the document and jump to the right section without manual page-by-page searching.
 
@@ -132,7 +132,7 @@ Give users quick visual and structural navigation tools through thumbnails and b
 
 ### 05 — HYPERLINK SUPPORT · CONNECTED CONTENT
 
-## Follow links inside PDF documents
+## Seamless PDF Link Navigation
 
 Let users interact with hyperlinks embedded in PDF files, including web links, email links, and internal document destinations. This helps users move between related content with less friction.
 
